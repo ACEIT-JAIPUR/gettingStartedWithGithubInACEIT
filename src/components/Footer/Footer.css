@@ -1,0 +1,93 @@
+.footer{
+    background-color: #ffffff4d;
+    height: 40vh;
+    display: flex;
+}
+
+.footer-left{
+    display: inline-block;
+    width: 35rem;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.site-info{
+    width: 20rem;
+    margin-top: 3rem;
+
+}
+
+.follow-us{
+    margin-right: 15rem;
+    
+}
+
+.contain{
+    display: flex;
+    padding: 3rem;
+    gap: 5rem;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+
+.digitalindia-logo{
+    display: inline-block;
+    padding: 3rem 0 0 5rem;
+}
+
+.digitalindia-logo img{
+    width: 10rem;
+}
+
+  /*media query for width <=1024px */
+
+  @media screen and (max-width: 1024px){
+
+    .footer-left{
+        gap: 3rem;
+    }
+
+    .site-info{
+        padding-left: 1rem;
+        gap: 1rem;
+        width: 10rem;
+    }
+    
+    .site-info h3{
+        margin-bottom: 0.4rem;
+    }
+    .site-info p{
+        font-size: 13px;
+    }
+
+    .follow-us{
+        margin-right: 2rem;
+        padding: 0;
+    }
+
+    .contain{
+        padding: 3rem 0 0 2rem;
+        gap: 2rem;
+    }
+
+    .digitalindia-logo{
+        display: inline-block;
+        padding: 3.5rem 0 0 0rem;
+    }
+
+    .digitalindia-logo img{
+        width: 5rem;
+    }
+
+  }
+
+
+
+
