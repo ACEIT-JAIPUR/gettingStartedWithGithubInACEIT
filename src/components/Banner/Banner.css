@@ -1,0 +1,38 @@
+.banner{
+    /* background-color: transparent; */
+    background-color: #ffffff4d;
+    display: flex;
+    gap: 10rem;
+}
+
+.text-info{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding: 2rem 0 0 8rem;
+}
+
+.banner-img {
+    padding: 1rem 0;
+    height: 15rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .text-info{
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .banner-img{
+        padding: 2rem;
+    }
+}
